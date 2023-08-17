@@ -1,0 +1,5 @@
+<h2>Pending Friend Requests</h2>
+<div *ngFor="let request of requests">
+  <div>{{ request.sender }}</div>
+  <button (click)="acceptFriendRequest(request.id)">Accept</button>
+</div>

@@ -1,0 +1,10 @@
+<h1>Profile</h1>
+<div>
+  <label>Username:</label>
+  <input type="text" [(ngModel)]="username" name="username" readonly>
+</div>
+<div>
+  <label>Email:</label>
+  <input type="email" [(ngModel)]="email" name="email">
+</div>
+<button (click)="updateProfile()">Update</button>
